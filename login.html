@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+
+        }
+
+        #icon {
+            font-size: 25px;
+            font-style: inherit;
+            border: lavenderblush solid 10px;
+
+        }
+
+        nav {
+            display: flex;
+            background-color: pink;
+        }
+
+        nav a {
+            color: black;
+            padding: 20px;
+            text-decoration: none;
+            font-size: 20px;
+            text-align:center;
+        }
+
+        nav a:hover {
+            background-color: blue;
+        }
+
+       
+        .container {
+            height:100vh;
+            width:100%;
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-image: url(http://images6.fanpop.com/image/photos/36000000/AOT-Wallpapers-shingeki-no-kyojin-attack-on-titan-36001024-1680-1042.jpg);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+        }
+        .box {
+            height:60vh;
+            width:60vh;
+            background-color:rgba(0,0,0,0.5);
+            display:flex;
+          justify-content: center;
+          flex-direction:column;
+          align-items:center;
+          text-align:center;
+
+        }
+        @media all and (max-width:990px) {
+            nav {
+                flex-direction: column;
+                
+            }
+        }
+        h1 {
+            color:white;
+        }
+        input {
+            height:40px;
+            width:400px;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <a id="icon"> <i class="fab fa-octopus-deploy"></i>ANIME QUOTES <i class="fas fa-horse"> <i
+                    class="fab fa-500px"></i> </i></a>
+        <a href="index.html"> Home</a>
+        <a href="abt.html"> About us</a>
+        <a href="login.html"> Login</a>
+        <a href="contact.html"> Contact page</a>
+        <a href="membership.html"> Membership</a>
+    </nav>
+    <div class="container">
+    <div class="box">
+        <form action="">
+            <h1> LOGIN </h1>
+            <br>
+            <br>
+            <input type="text" placeholder="Username">
+            <br>
+            <br>
+            <input type="text" placeholder="password">
+            <br>
+            <br>
+            <a href="index.html"><input type="button" placeholder="Submit and Login" value="login"> </a>
+        
+        </form>
+    </div>
+</div>
+
+</body>
+
+</html>
